@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ruletka</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="plik.js"></script>
+</head>
+<body>
+	<header class="naglowek">
+		<h1>HAZARD</h1>
+		<button class="login" id="login1" onclick="f()">Login</button>
+	</header>
+	<div class="roz"></div>
+	<nav class="nav">
+	<div class="wybor" onclick="ruletka()" onMouseOver="this.style.background='#48C4FF'" onMouseOut="this.style.backgroundColor='rgba(100, 255, 255, 0.5)'; this.styleFilter='alpha(opacity=50)'">
+		<h3>ruletka</h3>
+	</div>
+	<div class="roz"></div>
+	<div class="wybor" onclick="crash()" onMouseOver="this.style.background='#48C4FF'" onMouseOut="this.style.backgroundColor='rgba(100, 255, 255, 0.5)'; this.styleFilter='alpha(opacity=50)'">
+		<h3>crash</h3>
+	</div>
+	<div class="roz"></div>
+	<div class="wybor" onMouseOver="this.style.background='#48C4FF'" onMouseOut="this.style.backgroundColor='rgba(100, 255, 255, 0.5)'; this.styleFilter='alpha(opacity=50)'">
+		<h3>wplaty</h3>
+	</div>
+	<div class="roz"></div>
+	<div class="wybor" onMouseOver="this.style.background='#48C4FF'" onMouseOut="this.style.backgroundColor='rgba(100, 255, 255, 0.5)'; this.styleFilter='alpha(opacity=50)'">
+		<h3>wyplaty</h3>
+	</div>
+	</nav>
+	<section class="pusty" id="pusty"></section>
+	<section class="main" id="ruletka">
+	</section>
+	<section class="main" id="crash">
+	</section>
+	<div style="clear:both"></div>
+	<div class="roz"></div>
+	<footer class="footer">
+		<h3 id="dol">Autor:Jan Kowalski (jan.kowalski@example.com)</h3>
+		<h3 id="dol1">wszelkie prawa zastrzeżone</h3>
+	</footer >
+	
+</body>
+</html>
